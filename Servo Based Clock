@@ -1,0 +1,7 @@
+#Servo_Based_Clock
+Used ESP32Servo.h library and used printf scanf equivalents in that which were Seerial.printIn() and Serial.parseInt() .Got in input for hour and minute .
+Since 1 minute = 3 degrees (given)
+1 hour=180 degrees
+did these calculatiosn in void(loop) and did a 'for' loop to change the needle of servo slowly from 0 to degres calculated.
+used servo.write(angle) to convert values calculated to degrees in servo inside loop.
+Since there were 2 servos for hour and minute 2 seperate loops for hour and minute were given.

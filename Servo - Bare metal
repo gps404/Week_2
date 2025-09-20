@@ -1,0 +1,5 @@
+#Bare metal servo 
+set data direction register B to 1 because bits of 1 is 0000001 which switched PORTB pin 8 to 1 
+used for loops giving servo a high volt PORTB=1 to make servo move and a low volt PORTB=0 to make servo stop moving .
+Defined a function for delay 
+Made Servo only move a bit without potentiometer.

@@ -1,0 +1,5 @@
+#Sequence LED
+pused pinMode to assign pins to 5 led and ther OUTPUT ( pins 12-16 connected in order from left to right).
+used 2 'for' loops .One with an incremnet of count variable for making leds blink from left to right from pin 12 to pin 16.
+Second 'for' loop with decrement of count variable from pin 16 to pin 12 for making leds blink from right to left.
+Used digitalWrite() inside both for loops to give pin according to count the output along with delay. 

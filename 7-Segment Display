@@ -1,0 +1,6 @@
+#7_Segment_display
+Introduced an array of size 7 for pins which controls each led segment of digit. Introduced an array of elements which had 7 varying values of either 1 and 0 according to the led segment needed for the digit.
+similarly there was 10 digits and hence 10 rows and 7 columns for the seven light segments. 
+Introduced loop with row count variable and a nested loop for column count and used digitalWrite() to map pin[row count] to values of [row count][coulumn count] which is either 1 or 0 which makesled segment turn 
+on or off .
+Gave delay.

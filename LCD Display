@@ -1,0 +1,19 @@
+#LCD_Display
+leant about pins of LCD display from videos and got datasheets . 
+Connected 5 V power source and grounded and did primary set up for the bread board.
+connected :
+V0( contrast control) to Potentiometer input pin ( middle pin)
+RS to slide switch ( to determine volt for initialisation and sending transmissions to lcd)
+E(Enable pin) to slide switch to enable every 4 bits ( simce ive done in a 4 bit mode)
+DB0-DB3 not used as in 4 bit mode
+DB4-DB7 to slide switches (1 or 0)
+
+initialised to 4 bit mode and sent letter bits .
+pins - 7 6 5 4 -
+       0 0 1 0 
+       0 0 0 0 
+       0 0 0 1
+       0 0 0 0
+       0 0 1 0 
+       0 0 0 0
+       1 1 0 0 
